@@ -471,7 +471,7 @@ footer{padding:50px 0;
     border-radius:4px;
 }
 .project-image{
-    float:left;
+    /* float:left; */
     padding: 0px;
 }
 .project-info{
@@ -501,7 +501,29 @@ footer{padding:50px 0;
 #more-projects{
     display:none;
 }
-#skills{
+#skills {
+    padding: 50px 20px;
+    text-align:center;
+    
+}
+#skills h2 {
+    /* font-size: 24px;
+    font-family: 'coolveticaregular'; */
+    color:#374054;
+    margin-bottom:50px;
+    /* text-align:center; */
+}
+
+/* #skills a {
+    margin-left: 20px;
+} */
+
+#skills a img {
+    width: 8rem;
+    /* margin-left: 1rem; */
+}
+
+/* #skills{
     padding:50px 15px;
     text-align:center;
 }
@@ -514,17 +536,17 @@ footer{padding:50px 0;
     margin:0 auto;
     padding:0;
     max-width:800px;
-}
-#skills li{
+} */
+#skills a{
     display:inline-block;
     margin:7px;
     padding:5px 10px;
-    color:#374054;
+    /* color:#374054;
     background:#e4e4ea;
     list-style:none;
-    cursor:default;
-    font-size:1.2em;
-}
+    cursor:default; */
+    /* font-size:1.2em; */
+} 
 #contact{
     padding:50px 15px;
     background:#3498db;
@@ -737,7 +759,7 @@ header {
         float:none;
     }.project-image{
         display: table;
-        float: left;
+        /* float: left; */
         padding: 30px 100px;
     }
     .project-info{
