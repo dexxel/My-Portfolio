@@ -757,10 +757,17 @@ header {
     }
     .education-block h3,.education-block span{
         float:none;
-    }.project-image{
+    }
+    .project-image{
         display: table;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 30px 0px;
         /* float: left; */
-        padding: 30px 100px;
+    }
+        
+       
+        
     }
     .project-info{
         position:relative;
